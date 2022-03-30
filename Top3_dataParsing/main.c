@@ -25,17 +25,17 @@ int main()
 
     while(1){
 
-        //ÇÑÁÙ ÀĞ±â
+        //í•œì¤„ ì½ê¸°
     	fgets(buf,1000,fp);
 
     	if(feof(fp) != 0){
     		break;
     	}
 
-    	//ÇÑÁÙ Ãâ·ÂÇÏ±â
+    	//í•œì¤„ ì¶œë ¥í•˜ê¸°
     	//printf("%s",buf);
 
-    	//0~16 : ½Ã°£
+    	//0~16 : ì‹œê°„
     	char time[50];
     	strncpy(time,buf,15);
     	time[15]='\0';
